@@ -147,7 +147,7 @@ TextBox.FocusLost:Connect(function()
 			v25 = v27;
 		end;
 	end;
-	local v28 = Animator:LoadAnimation(v25.Animation);
+	local v28 = Animator:LoadAnimation(v25.Animation); --sync broke here
 	v28.Name = "SyncedAnimation";
 	v28:Play();
 	u8 = game.Players.PlayerRemoving:Connect(function(p8)
