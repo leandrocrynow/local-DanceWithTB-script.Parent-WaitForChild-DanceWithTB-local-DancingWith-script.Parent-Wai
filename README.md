@@ -1,3 +1,4 @@
+```lua
 local DanceWithTB = script.Parent:WaitForChild("DanceWithTB");
 local DancingWith = script.Parent:WaitForChild("DancingWith");
 local CurrentlyWith = DancingWith:WaitForChild("CurrentlyWith");
@@ -205,3 +206,6 @@ while wait(2.5) do
 		end;
 	end;
 end;
+
+
+```
